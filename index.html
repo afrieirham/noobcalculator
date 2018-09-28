@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Noob Calculator</title>
+  </head>
+  <body >
+      <div class="container mt-5 text-center ">
+        <h3>Noob Calculator</h3>
+        <p>by Afrie</p>
+        <form action="">
+            <label for="">Value 1: </label> <input id="value1" type="text" class="input"><br>
+            <label for="">Value 2: </label> <input id="value2" type="text" class="input"><br>
+            <label for="">Operation</label>
+            <select name="" id="operation">
+                <option value="add">+</option>
+                <option value="minus">-</option>
+                <option value="multiply">x</option>
+                <option value="divide">÷</option>
+            </select><br>
+            <button onclick="calculate()" type="button" class="btn btn-success bg-success">Calculate</button>
+        </form><br>
+            
+        <div>
+            <label for="">Result: <h4 id="result" class="text-success"></h4></label>
+        </div>
+        <footer class="fixed-bottom mb-5">Build with Bootstrap</footer>
+      </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
